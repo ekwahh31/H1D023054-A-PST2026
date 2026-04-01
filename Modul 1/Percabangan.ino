@@ -18,7 +18,8 @@ void loop() {
     delay(3000);        
     // jeda sebelum reset 
     timeDelay = 1000;   // reset ke awal 
-    } else { 
+    } 
+  else { 
     timeDelay -= 100;   // percepatan bertahap 
   } 
 } 
