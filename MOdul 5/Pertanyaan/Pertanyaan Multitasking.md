@@ -32,7 +32,6 @@
     ```cpp
     #include <Arduino_FreeRTOS.h>
 
-    // Global variable untuk berbagi data antar task
     volatile int potValue = 0;
 
     void TaskBlink1( void *pvParameters );

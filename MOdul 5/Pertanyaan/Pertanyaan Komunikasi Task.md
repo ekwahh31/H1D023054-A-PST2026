@@ -19,7 +19,7 @@
 
     // Konfigurasi DHT sensor
     #define DHTPIN 2           // Pin digital untuk DHT sensor
-    #define DHTTYPE DHT22      // Tipe sensor (DHT22 atau DHT11)
+    #define DHTTYPE DHT22      
     DHT dht(DHTPIN, DHTTYPE);
 
     struct readings {
